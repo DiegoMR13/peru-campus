@@ -1,0 +1,774 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perú Campus | Cursos de universidades e institutos peruanos</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+    <!--
+    <p class="uno" style="background-color: rgb(72, 186, 227);">uno</p>
+    <p class="dos" style="background-color: rgb(225, 230, 235);>dos</p>
+    <p class="tres" style="background-color: rgb(210, 236, 243);>tres</p>
+    <p class="cuatro" style="background-color: rgb(187, 233, 243);>cuatro</p>
+    <p class="cinco" style="background-color: rgb(15, 44, 67);>cinco</p>
+    <p class="seis" style="background-color: rgb(32, 127, 167);>seis</p>
+
+    --transition: all .25s;
+    --celeste-trans: rgba(212, 244, 253, 0.5);
+    --celeste-1: rgba(86, 216, 255, 0.4);
+    --celeste-2: rgba(86, 216, 255, 0.8);
+    --celeste-3: rgba(86, 216, 255);
+    --celeste-4: rgb(0, 201, 228);
+    --hr: rgb(225, 225, 225);
+    --gris-1: rgb(235, 235, 235);
+    --gris-2: rgb(180, 180, 180);
+    --gris-3: rgb(125, 125, 125);
+    --gris-4: rgb(60, 60, 60);
+    --estrellas: rgb(231, 179, 7);
+    -->
+
+
+    <header>
+        <nav>
+            <ul class="header--lista">
+                <li>
+                    <a class="header--item" href="#">Categorías</a>
+                </li>
+                <li>
+                    <input class="barra-busqueda" type="text" placeholder="Busca entre más de 500 cursos">
+                </li>
+            </ul>
+
+            <a href="index.html" class="contenedor-logo">
+                <img class="logo" src="img/logo_perucampus_nobg.png" alt="logo de Perú Campus">
+            </a>
+
+            <ul class="header--lista">
+                <li>
+                    <span class="majesticons--shopping-cart-line header--item"></span>
+                </li>
+                <li>
+                    <a class="header--item" href="contacto.html">Contacto</a>
+                </li>
+                <li>
+                    <a class="header--item" href="iniciarsesion.html">Iniciar Sesión</a>
+                </li>
+                <li>
+                    <a href="registro.html" class="header--btn">Regístrate</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero-image">
+        <p>Aprende de los <br>mejores:</p>
+        <h1>Cursos de universidades <br>e institutos peruanos</h1>
+        <a href="registro.html" class="hero--btn1">REGÍSTRATE</a>
+        <a href="#" class="hero--btn2">Conoce más</a>
+    </section>
+
+    <main>
+        <section class="instituciones">
+            <p>Aprende de <a href="#">más de 50 instituciones peruanas</a></p>
+            <div class="carrusel--instituciones">
+                <img src="img/logos/unmsm2.png" alt="logo universidad nacional mayor de san marcos">
+                <img src="img/logos/cato.png" alt="logo pontificia universidad católica del perú">
+                <img src="img/logos/cibertec.png" alt="logo Cibertec">
+                <img src="img/logos/upc.png" alt="logo UPC">
+                <img src="img/logos/uni.png" alt="logo universidad nacional de ingeniería">
+            </div>
+        </section>
+        <hr>
+        <section class="destacados contenedor-seccion"><!--Cambiar los span de flechas por imágenes-->
+            <h2 class="subtitulo">Cursos destacados</h2>
+            <div class="contenedor-y-flechas">
+                <!--<div class="contenedor-de-flecha">-->
+                    <span class="ion--chevron-back-outline flecha"></span>
+                <!--</div>-->
+                <div class="contenedor-destacados">
+                    <a href="">
+                        <img src="img/cursos/analisis_datos_python.jpg" alt="curso de análisis de datos con Python">
+                    </a>
+                    <div class="destacados--info-curso"><!--flex_colum_J-C:space-between-->
+                        <div class="destacados--info-curso--informacion">
+                            <a href="#" class="destacados--nombre-institucion">Universidad Nacional de Ingeniería</a>
+                            <a href="#" class="destacados--nombre-curso">Análisis y visualización de datos con
+                                Python</a>
+                            <p class="destacados--descripcion-curso">Aprende a manejar y analizar datos usando Python
+                                con técnicas de recopilación, limpieza, visualización y modelado predictivo, utilizando
+                                bibliotecas como Pandas, NumPy y Scikit-learn.</p>
+                            <div class="info-curso--etiquetas">
+                                <span class="info-curso--etiqueta">+ 20 horas</span>
+                                <span class="info-curso--etiqueta">37 clases</span>
+                            </div>
+                        </div>
+
+                        <div class="destacados--estrellas-precio">
+                            <div class="destacados--estrellas">
+                                <p>4.9</p>
+                                <span class="line-md--star-filled"></span>
+                                <span class="line-md--star-filled"></span>
+                                <span class="line-md--star-filled"></span>
+                                <span class="line-md--star-filled"></span>
+                                <span class="line-md--star-filled-half"></span>
+                            </div>
+                            <div class="destacados--precio">
+                                <span class="precio-normal"></span>
+                                <a href="" class="destacados--btn-precio">
+                                    <span class="majesticons--shopping-cart-line"></span>
+                                    <p>S/59.90</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--<div class="contenedor-de-flecha">-->
+                    <span class="ion--chevron-forward-outline flecha"></span>
+                <!--</div>-->
+            </div>
+            <a href="#" class="btn-seccion">Más sobre <span>Análisis de Datos</span></a>
+        </section>
+        <hr>
+        <section class="promociones contenedor-seccion">
+            <h2 class="subtitulo">Promociones</h2>
+            <div class="contenedor-y-flechas">
+                <span class="ion--chevron-back-outline flecha"></span>
+                <div class="contenedor-cursos">
+                    <!--Tarjeta 1-->
+                    <div class="tarjeta">
+                        <img class="tarjeta--img-curso" src="img/cursos/bio_molecular_agraria.jpg" alt="">
+                        <img class="tarjeta--img-institucion" src="img/logos/agraria.png" alt="">
+                        <div class="tarjeta--info-curso">
+                            <div class="tarjeta--info-curso--texto-y-estrellas">
+                                <a href="" class="tarjeta--nombre-curso">Introducción a la Biología Molecular y
+                                    Genética</a>
+                                <p class="tarejta--descripcion-curso">Explora los fundamentos de la biología...</p>
+                                <div class="tarjeta--estrellas">
+                                    <p>4.6</p>
+                                    <span class="line-md--star-filled"></span>
+                                    <span class="line-md--star-filled"></span>
+                                    <span class="line-md--star-filled"></span>
+                                    <span class="line-md--star-filled"></span>
+                                    <span class="line-md--star-filled-half"></span>
+                                </div>
+                            </div>
+
+                            <div class="tarjeta--precios">
+                                <span class="tarjeta--precio-normal"></span>
+                                <a href="" class="tarjeta--btn">
+                                    <span class="majesticons--shopping-cart-line"></span>
+                                    <p>GRATIS</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Tarjeta 2-->
+                    <div class="tarjeta">
+                        <img class="tarjeta--img-curso" src="img/cursos/piura_psicologia.jpg" alt="">
+                        <img class="tarjeta--img-institucion" src="img/logos/u_piura.png" alt="">
+                        <div class="tarjeta--info-curso">
+                            <div class="tarjeta--info-curso--texto-y-estrellas">
+                                <a href="" class="tarjeta--nombre-curso">La Ciencia de la Mente y el Comportamiento</a>
+                                <p class="tarejta--descripcion-curso">Descubre los fundamentos científicos de la
+                                    psicología...</p>
+                                <div class="tarjeta--estrellas">
+                                    <p>4.8</p>
+                                    <span class="line-md--star-filled"></span>
+                                    <span class="line-md--star-filled"></span>
+                                    <span class="line-md--star-filled"></span>
+                                    <span class="line-md--star-filled"></span>
+                                    <span class="line-md--star-filled-half"></span>
+                                </div>
+                            </div>
+
+                            <div class="tarjeta--precios">
+                                <span class="tarjeta--precio-normal">S/49.90</span>
+                                <a href="" class="tarjeta--btn">
+                                    <span class="majesticons--shopping-cart-line"></span>
+                                    <p>S/9.90</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Tarjeta 3-->
+                    <div class="tarjeta">
+                        <img class="tarjeta--img-curso" src="img/cursos/upc_gestion-tiempo.jpg" alt="">
+                        <img class="tarjeta--img-institucion" src="img/logos/upc.png" alt="">
+                        <div class="tarjeta--info-curso">
+                            <div class="tarjeta--info-curso--texto-y-estrellas">
+                                <a href="" class="tarjeta--nombre-curso">Gestión del Tiempo y Productividad</a>
+                                <p class="tarejta--descripcion-curso">Técnicas y estrategias para mejorar la gestión del
+                                    tiempo...</p>
+                                <div class="tarjeta--estrellas">
+                                    <p>4.7</p>
+                                    <span class="line-md--star-filled"></span>
+                                    <span class="line-md--star-filled"></span>
+                                    <span class="line-md--star-filled"></span>
+                                    <span class="line-md--star-filled"></span>
+                                    <span class="line-md--star-filled-half"></span>
+                                </div>
+                            </div>
+
+                            <div class="tarjeta--precios">
+                                <span class="tarjeta--precio-normal">S/49.90</span>
+                                <a href="" class="tarjeta--btn">
+                                    <span class="majesticons--shopping-cart-line"></span>
+                                    <p>S/14.90</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Tarjeta 4-->
+                    <div class="tarjeta">
+                        <img class="tarjeta--img-curso" src="img/cursos/sanMartin_intro-derecho.jpg" alt="">
+                        <img class="tarjeta--img-institucion" src="img/logos/san_martin.png" alt="">
+                        <div class="tarjeta--info-curso">
+                            <div class="tarjeta--info-curso--texto-y-estrellas">
+                                <a href="" class="tarjeta--nombre-curso">Introducción al Derecho</a>
+                                <p class="tarejta--descripcion-curso">Obtendrás una visión general de los fundamentos
+                                    del sistema legal, incluyendo...</p>
+                                <div class="tarjeta--estrellas">
+                                    <p>4.6</p>
+                                    <span class="line-md--star-filled"></span>
+                                    <span class="line-md--star-filled"></span>
+                                    <span class="line-md--star-filled"></span>
+                                    <span class="line-md--star-filled"></span>
+                                    <span class="line-md--star-filled-half"></span>
+                                </div>
+                            </div>
+
+                            <div class="tarjeta--precios">
+                                <span class="tarjeta--precio-normal"></span>
+                                <a href="" class="tarjeta--btn">
+                                    <span class="majesticons--shopping-cart-line"></span>
+                                    <p>GRATIS</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <span class="ion--chevron-forward-outline flecha"></span>
+            </div>
+            <a href="#" class="btn-seccion">Ver más <span>Promociones</span></a>
+        </section>
+        <hr>
+
+        <section class="categorias contenedor-seccion">
+            <h2 class="subtitulo">Explora diversas categorías</h2>
+            <div class="contenedor-categorias">
+                <a href="">
+                    <h3>TECNOLOGÍAS DE LA INFORMACIÓN Y COMPUTACIÓN</h3>
+                </a>
+                <a href="">
+                    <h3>NEGOCIOS Y EMPRENDIMIENTO</h3>
+                </a>
+                <a href="">
+                    <h3>CIENCIAS DE LA SALUD</h3>
+                </a>
+                <a href="">
+                    <h3>CIENCIAS SOCIALES Y HUMANIDADES</h3>
+                </a>
+                <a href="">
+                    <h3>ARTE Y DISEÑO</h3>
+                </a>
+                <a href="">
+                    <h3>CIENCIAS EXACTAS Y NATURALES</h3>
+                </a>
+                <a href="">
+                    <h3>EDUCACIÓN Y DESARROLLO PROFESIONAL</h3>
+                </a>
+                <a href="">
+                    <h3>INGENIERÍA</h3>
+                </a>
+                <a href="">
+                    <h3>DERECHO Y CIENCIAS JURÍDICAS</h3>
+                </a>
+                <a href="">
+                    <h3>DESARROLLO PERSONAL</h3>
+                </a>
+                <a href="">
+                    <h3>MEDIOS Y COMUNICACIÓN</h3>
+                </a>
+                <a href="">
+                    <h3>CIENCIAS DE LA TIERRA Y DEL ESPACIO</h3>
+                </a>
+            </div>
+        </section>
+
+        <section class="categoria1 contenedor-seccion">
+            <h2 class="subtitulo"><span>Categoría: </span>Negocios y emprendimiento</h2>
+            <div class="contenedor-y-flechas">
+                <span class="ion--chevron-back-outline flecha"></span>
+                <div class="contenedor-cursos">
+                    <!--Tarjeta 1-->
+                    <div class="tarjeta">
+                        <img class="tarjeta--img-curso" src="img/cursos/esan_marketing-digital.jpg"
+                            alt="imagen del curso">
+                        <img class="tarjeta--img-institucion" src="img/logos/esan.png" alt="logo institución educativa">
+                        <div class="tarjeta--info-curso">
+                            <div class="tarjeta--info-curso--texto-y-estrellas">
+                                <a href="" class="tarjeta--nombre-curso">Marketing Digital y Estrategias en Redes
+                                    Sociales</a>
+                                <p class="tarejta--descripcion-curso">Aprende a desarrollar y ejecutar campañas de
+                                    marketing ...</p>
+                                <div class="tarjeta--estrellas">
+                                    <p>4.7</p>
+                                    <span class="line-md--star-filled"></span>
+                                    <span class="line-md--star-filled"></span>
+                                    <span class="line-md--star-filled"></span>
+                                    <span class="line-md--star-filled"></span>
+                                    <span class="line-md--star-filled-half"></span>
+                                </div>
+                            </div>
+
+                            <div class="tarjeta--precios">
+                                <span class="tarjeta--precio-normal"></span>
+                                <a href="" class="tarjeta--btn">
+                                    <span class="majesticons--shopping-cart-line"></span>
+                                    <p>S/45.90</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Tarjeta 2-->
+                    <div class="tarjeta">
+                        <img class="tarjeta--img-curso" src="img/cursos/pacifico_modelo-negocios.jpg"
+                            alt="imagen del curso">
+                        <img class="tarjeta--img-institucion" src="img/logos/u_pacifico.png"
+                            alt="logo institución educativa">
+                        <div class="tarjeta--info-curso">
+                            <div class="tarjeta--info-curso--texto-y-estrellas">
+                                <a href="" class="tarjeta--nombre-curso">Desarrollo de Modelos de Negocio</a>
+                                <p class="tarejta--descripcion-curso">Conoce los conceptos clave de las finanzas
+                                    empresariales ...</p>
+                                <div class="tarjeta--estrellas">
+                                    <p>4.6</p>
+                                    <span class="line-md--star-filled"></span>
+                                    <span class="line-md--star-filled"></span>
+                                    <span class="line-md--star-filled"></span>
+                                    <span class="line-md--star-filled"></span>
+                                    <span class="line-md--star-filled-half"></span>
+                                </div>
+                            </div>
+
+                            <div class="tarjeta--precios">
+                                <span class="tarjeta--precio-normal"></span>
+                                <a href="" class="tarjeta--btn">
+                                    <span class="majesticons--shopping-cart-line"></span>
+                                    <p>S/70.00</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Tarjeta 3-->
+                    <div class="tarjeta">
+                        <img class="tarjeta--img-curso" src="img/cursos/usil_finanzas-emprendedores.png"
+                            alt="imagen del curso">
+                        <img class="tarjeta--img-institucion" src="img/logos/usil.png" alt="logo institución educativa">
+                        <div class="tarjeta--info-curso">
+                            <div class="tarjeta--info-curso--texto-y-estrellas">
+                                <a href="" class="tarjeta--nombre-curso">Finanzas para Emprendedores</a>
+                                <p class="tarejta--descripcion-curso">Conoce los conceptos clave de las finanzas
+                                    empresariales ...</p>
+                                <div class="tarjeta--estrellas">
+                                    <p>4.7</p>
+                                    <span class="line-md--star-filled"></span>
+                                    <span class="line-md--star-filled"></span>
+                                    <span class="line-md--star-filled"></span>
+                                    <span class="line-md--star-filled"></span>
+                                    <span class="line-md--star-filled-half"></span>
+                                </div>
+                            </div>
+
+                            <div class="tarjeta--precios">
+                                <span class="tarjeta--precio-normal">S/49.90</span>
+                                <a href="" class="tarjeta--btn">
+                                    <span class="majesticons--shopping-cart-line"></span>
+                                    <p>S/49.90</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Tarjeta 4-->
+                    <div class="tarjeta">
+                        <img class="tarjeta--img-curso" src="img/cursos/vallejo_agile.jpg" alt="imagen del curso">
+                        <img class="tarjeta--img-institucion" src="img/logos/c_vallejo.png"
+                            alt="logo institución educativa">
+                        <div class="tarjeta--info-curso">
+                            <div class="tarjeta--info-curso--texto-y-estrellas">
+                                <a href="" class="tarjeta--nombre-curso">Gestión de Proyectos y Metodologías Ágiles</a>
+                                <p class="tarejta--descripcion-curso">Aprende a planificar, ejecutar y gestionar
+                                    proyectos utilizando enfoques ágiles ...</p>
+                                <div class="tarjeta--estrellas">
+                                    <p>4.6</p>
+                                    <span class="line-md--star-filled"></span>
+                                    <span class="line-md--star-filled"></span>
+                                    <span class="line-md--star-filled"></span>
+                                    <span class="line-md--star-filled"></span>
+                                    <span class="line-md--star-filled-half"></span>
+                                </div>
+                            </div>
+
+                            <div class="tarjeta--precios">
+                                <span class="tarjeta--precio-normal"></span>
+                                <a href="" class="tarjeta--btn">
+                                    <span class="majesticons--shopping-cart-line"></span>
+                                    <p>S/39.90</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <span class="ion--chevron-forward-outline flecha"></span>
+            </div>
+            <a href="#" class="btn-seccion">Ver más de <span>Negocios y emprendimiento</span></a>
+        </section>
+
+        <section class="categoria2 contenedor-seccion">
+            <h2 class="subtitulo"><span>Categoría: </span>Ingeniería</h2>
+            <div class="contenedor-y-flechas">
+                <span class="ion--chevron-back-outline flecha"></span>
+                <div class="contenedor-cursos">
+                    <!--Tarjeta 1-->
+                    <div class="tarjeta">
+                        <img class="tarjeta--img-curso" src="img/cursos/unmsm_electronica.jpg" alt="imagen del curso">
+                        <img class="tarjeta--img-institucion" src="img/logos/unmsm2.png"
+                            alt="logo institución educativa">
+                        <div class="tarjeta--info-curso">
+                            <div class="tarjeta--info-curso--texto-y-estrellas">
+                                <a href="" class="tarjeta--nombre-curso">Fundamentos de Ingeniería Electrónica</a>
+                                <p class="tarejta--descripcion-curso">Aprende los principios básicos de la ingeniería
+                                    electrónica ...</p>
+                                <div class="tarjeta--estrellas">
+                                    <p>4.9</p>
+                                    <span class="line-md--star-filled"></span>
+                                    <span class="line-md--star-filled"></span>
+                                    <span class="line-md--star-filled"></span>
+                                    <span class="line-md--star-filled"></span>
+                                    <span class="line-md--star-filled-half"></span>
+                                </div>
+                            </div>
+
+                            <div class="tarjeta--precios">
+                                <span class="tarjeta--precio-normal"></span>
+                                <a href="" class="tarjeta--btn">
+                                    <span class="majesticons--shopping-cart-line"></span>
+                                    <p>S/19.90</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Tarjeta 2-->
+                    <div class="tarjeta">
+                        <img class="tarjeta--img-curso" src="img/cursos/utec_calculo.jpg" alt="imagen del curso">
+                        <img class="tarjeta--img-institucion" src="img/logos/utec.png" alt="logo institución educativa">
+                        <div class="tarjeta--info-curso">
+                            <div class="tarjeta--info-curso--texto-y-estrellas">
+                                <a href="" class="tarjeta--nombre-curso">Cálculo y Álgebra Lineal para Ingeniería</a>
+                                <p class="tarejta--descripcion-curso">Esencial para estudiantes de pregrado que buscan
+                                    reforzar ...</p>
+                                <div class="tarjeta--estrellas">
+                                    <p>4.8</p>
+                                    <span class="line-md--star-filled"></span>
+                                    <span class="line-md--star-filled"></span>
+                                    <span class="line-md--star-filled"></span>
+                                    <span class="line-md--star-filled"></span>
+                                    <span class="line-md--star-filled-half"></span>
+                                </div>
+                            </div>
+
+                            <div class="tarjeta--precios">
+                                <span class="tarjeta--precio-normal"></span>
+                                <a href="" class="tarjeta--btn">
+                                    <span class="majesticons--shopping-cart-line"></span>
+                                    <p>GRATIS</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Tarjeta 3-->
+                    <div class="tarjeta">
+                        <img class="tarjeta--img-curso" src="img/cursos/uni_mecanica-materiales.png"
+                            alt="imagen del curso">
+                        <img class="tarjeta--img-institucion" src="img/logos/uni.png" alt="logo institución educativa">
+                        <div class="tarjeta--info-curso">
+                            <div class="tarjeta--info-curso--texto-y-estrellas">
+                                <a href="" class="tarjeta--nombre-curso">Mecánica de Materiales I</a>
+                                <p class="tarejta--descripcion-curso">Explora la teoría y aplicación de la mecánica de
+                                    ...</p>
+                                <div class="tarjeta--estrellas">
+                                    <p>4.6</p>
+                                    <span class="line-md--star-filled"></span>
+                                    <span class="line-md--star-filled"></span>
+                                    <span class="line-md--star-filled"></span>
+                                    <span class="line-md--star-filled"></span>
+                                    <span class="line-md--star-filled-half"></span>
+                                </div>
+                            </div>
+
+                            <div class="tarjeta--precios">
+                                <span class="tarjeta--precio-normal"></span>
+                                <a href="" class="tarjeta--btn">
+                                    <span class="majesticons--shopping-cart-line"></span>
+                                    <p>S/49.90</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Tarjeta 4-->
+                    <div class="tarjeta">
+                        <img class="tarjeta--img-curso" src="img/cursos/utec_termodinamica.jpeg" alt="imagen del curso">
+                        <img class="tarjeta--img-institucion" src="img/logos/utec.png" alt="logo institución educativa">
+                        <div class="tarjeta--info-curso">
+                            <div class="tarjeta--info-curso--texto-y-estrellas">
+                                <a href="" class="tarjeta--nombre-curso">Termodinámica y Transferencia de Calor</a>
+                                <p class="tarejta--descripcion-curso">Estudia los principios de la termodinámica y sus
+                                    aplicaciones en la ...</p>
+                                <div class="tarjeta--estrellas">
+                                    <p>4.6</p>
+                                    <span class="line-md--star-filled"></span>
+                                    <span class="line-md--star-filled"></span>
+                                    <span class="line-md--star-filled"></span>
+                                    <span class="line-md--star-filled"></span>
+                                    <span class="line-md--star-filled-half"></span>
+                                </div>
+                            </div>
+
+                            <div class="tarjeta--precios">
+                                <span class="tarjeta--precio-normal"></span>
+                                <a href="" class="tarjeta--btn">
+                                    <span class="majesticons--shopping-cart-line"></span>
+                                    <p>S/29.90</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <span class="ion--chevron-forward-outline flecha"></span>
+            </div>
+            <a href="#" class="btn-seccion">Ver más de <span>Ingeniería</span></a>
+        </section>
+
+        <section class="categoria3 contenedor-seccion">
+            <h2 class="subtitulo"><span>Categoría: </span>Ciencias de la salud</h2>
+            <div class="contenedor-y-flechas">
+                <span class="ion--chevron-back-outline flecha"></span>
+                <div class="contenedor-cursos">
+                    <!--Tarjeta 1-->
+                    <div class="tarjeta">
+                        <img class="tarjeta--img-curso" src="img/cursos/cayetano_primeros-auxilios.jpg"
+                            alt="imagen del curso">
+                        <img class="tarjeta--img-institucion" src="img/logos/cayetano.png"
+                            alt="logo institución educativa">
+                        <div class="tarjeta--info-curso">
+                            <div class="tarjeta--info-curso--texto-y-estrellas">
+                                <a href="" class="tarjeta--nombre-curso">Primeros Auxilios y Respuesta de Emergencia</a>
+                                <p class="tarejta--descripcion-curso">Aprende técnicas esenciales de primeros auxilios,
+                                    incluyendo ...</p>
+                                <div class="tarjeta--estrellas">
+                                    <p>5.0</p>
+                                    <span class="line-md--star-filled"></span>
+                                    <span class="line-md--star-filled"></span>
+                                    <span class="line-md--star-filled"></span>
+                                    <span class="line-md--star-filled"></span>
+                                    <span class="line-md--star-filled"></span>
+                                </div>
+                            </div>
+
+                            <div class="tarjeta--precios">
+                                <span class="tarjeta--precio-normal"></span>
+                                <a href="" class="tarjeta--btn">
+                                    <span class="majesticons--shopping-cart-line"></span>
+                                    <p>GRATIS</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Tarjeta 2-->
+                    <div class="tarjeta">
+                        <img class="tarjeta--img-curso" src="img/cursos/sanMartin_anatomia.jpg" alt="imagen del curso">
+                        <img class="tarjeta--img-institucion" src="img/logos/san_martin.png"
+                            alt="logo institución educativa">
+                        <div class="tarjeta--info-curso">
+                            <div class="tarjeta--info-curso--texto-y-estrellas">
+                                <a href="" class="tarjeta--nombre-curso">Introducción a la Anatomía y Fisiología
+                                    Humana</a>
+                                <p class="tarejta--descripcion-curso">Explora los conceptos básicos de la anatomía y
+                                    fisiología ...</p>
+                                <div class="tarjeta--estrellas">
+                                    <p>4.8</p>
+                                    <span class="line-md--star-filled"></span>
+                                    <span class="line-md--star-filled"></span>
+                                    <span class="line-md--star-filled"></span>
+                                    <span class="line-md--star-filled"></span>
+                                    <span class="line-md--star-filled-half"></span>
+                                </div>
+                            </div>
+
+                            <div class="tarjeta--precios">
+                                <span class="tarjeta--precio-normal"></span>
+                                <a href="" class="tarjeta--btn">
+                                    <span class="majesticons--shopping-cart-line"></span>
+                                    <p>19.90</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Tarjeta 3-->
+                    <div class="tarjeta">
+                        <img class="tarjeta--img-curso" src="img/cursos/usil_enfermeria.jpg" alt="imagen del curso">
+                        <img class="tarjeta--img-institucion" src="img/logos/usil.png" alt="logo institución educativa">
+                        <div class="tarjeta--info-curso">
+                            <div class="tarjeta--info-curso--texto-y-estrellas">
+                                <a href="" class="tarjeta--nombre-curso">Fundamentos de la Enfermería</a>
+                                <p class="tarejta--descripcion-curso">Curso introductorio sobre las prácticas y
+                                    principios de la ...</p>
+                                <div class="tarjeta--estrellas">
+                                    <p>4.7</p>
+                                    <span class="line-md--star-filled"></span>
+                                    <span class="line-md--star-filled"></span>
+                                    <span class="line-md--star-filled"></span>
+                                    <span class="line-md--star-filled"></span>
+                                    <span class="line-md--star-filled-half"></span>
+                                </div>
+                            </div>
+
+                            <div class="tarjeta--precios">
+                                <span class="tarjeta--precio-normal"></span>
+                                <a href="" class="tarjeta--btn">
+                                    <span class="majesticons--shopping-cart-line"></span>
+                                    <p>S/39.90</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Tarjeta 4-->
+                    <div class="tarjeta">
+                        <img class="tarjeta--img-curso" src="img/cursos/upc_nutricion.jpg" alt="imagen del curso">
+                        <img class="tarjeta--img-institucion" src="img/logos/upc.png" alt="logo institución educativa">
+                        <div class="tarjeta--info-curso">
+                            <div class="tarjeta--info-curso--texto-y-estrellas">
+                                <a href="" class="tarjeta--nombre-curso">Nutrición y Bienestar</a>
+                                <p class="tarejta--descripcion-curso">Conoce los principios básicos de la nutrición,
+                                    incluyendo la ...</p>
+                                <div class="tarjeta--estrellas">
+                                    <p>4.8</p>
+                                    <span class="line-md--star-filled"></span>
+                                    <span class="line-md--star-filled"></span>
+                                    <span class="line-md--star-filled"></span>
+                                    <span class="line-md--star-filled"></span>
+                                    <span class="line-md--star-filled-half"></span>
+                                </div>
+                            </div>
+
+                            <div class="tarjeta--precios">
+                                <span class="tarjeta--precio-normal">S/99.90</span>
+                                <a href="" class="tarjeta--btn">
+                                    <span class="majesticons--shopping-cart-line"></span>
+                                    <p>S/29.90</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <span class="ion--chevron-forward-outline flecha"></span>
+            </div>
+            <a href="#" class="btn-seccion">Ver más de <span>Ciencias de la salud</span></a>
+        </section>
+
+        <section class="testimonios contenedor-seccion">
+            <h2 class="subtitulo">Lo que dicen nuestros estudiantes</h2>
+            <div class="contenedor-testimonios">
+                <div class="persona1 testimonio">
+                    <img class="foto-persona" src="img/testimonios/chris.png" alt="foto de persona">
+                    <p class="nombre-persona">Christian Yovera</p>
+                    <p class="cargo-persona">Especialista en Ingeniería de datos en MiBanco</p>
+                    <p class="resenia-persona">"Mi experiencia en Perú Campus fue increíble. Cerré brechas en técnicas
+                        avanzadas y apliqué nuevos conocimientos en proyectos reales en MiBanco, mejorando análisis y
+                        liderazgo. Recomiendo este programa a cualquier profesional que busque llevar sus habilidades al
+                        siguiente nivel."</p>
+                    <a href="" class="testimonio--nombre-curso">Machine Learning y Análisis de Datos con Python</a>
+                    <a href="" class="testimonio--institucion-curso">Universidad Nacional Federico Villarreal</a>
+                </div>
+                <div class="persona2 testimonio">
+                    <img class="foto-persona" src="img/testimonios/vale.png" alt="foto de persona">
+                    <p class="nombre-persona">Valentina Lavi</p>
+                    <p class="cargo-persona">Estudiante de Medicina humana</p>
+                    <p class="resenia-persona">"Llevar este curso ha sido enriquecedor. Explorar y profundizar en áreas
+                        que me apasionan ha fortalecido mi compromiso con el aprendizaje. Estoy emocionada por aplicar
+                        estos nuevos conocimientos y contribuir significativamente en mi campo."</p>
+                    <a href="" class="testimonio--nombre-curso">Fundamentos de la Enfermería</a>
+                    <a href="" class="testimonio--institucion-curso">Universidad San Ignacio de Loyola</a>
+                </div>
+                <div class="persona3 testimonio">
+                    <img class="foto-persona" src="img/testimonios/dennis.png" alt="foto de persona">
+                    <p class="nombre-persona">Dennis Medina</p>
+                    <p class="cargo-persona">Estudiante de Ingeniería civil</p>
+                    <p class="resenia-persona">"Mi experiencia en este curso fue emocionante y reveladora para mi
+                        carrera como ingeniero civil. Gracias al enfoque claro y detallado, llené vacíos de conocimiento
+                        y apliqué nuevas técnicas en proyectos actuales. Este curso mejoró mi capacidad profesional
+                        preparándome para nuevos desafíos y oportunidades."</p>
+                    <a href="" class="testimonio--nombre-curso">Diseño y Análisis de Sistemas de Control</a>
+                    <a href="" class="testimonio--institucion-curso">Universidad Nacional de Ingeniería</a>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="logo-y-redes">
+                <a href="">
+                    <img class="footer--logo" src="img/logo_perucampus_nobg.png" alt="logo de Perú Campus">
+                </a>
+                <div class="redes">
+                    <span class="ic--baseline-facebook"></span>
+                    <span class="mage--instagram-circle"></span>
+                    <span class="entypo-social--linkedin-with-circle"></span>
+                    <span class="ri--twitter-x-fill"></span>
+                </div>
+            </div>
+            <div class="acerca-de">
+                <div class="acerca-de--bloque">
+                    <h3>Perú Campus</h3>
+                    <a href="">Acerca de</a>
+                    <a href="">Categorías</a>
+                    <a href="">Universidades</a>
+                    <a href="">Institutos</a>
+                    <a href="">Promociones</a>
+                    <a href="">Contacto</a>
+                    <a href="">Iniciar sesión</a>
+                    <a href="">Registrarse</a>
+                    <a href="">Biblioteca virtual</a>
+                </div>
+                <div class="acerca-de--bloque">
+                    <h3>Más</h3>
+                    <a href="">Ayuda y soporte</a>
+                    <a href="">Preguntas frecuentes</a>
+                    <a href="">Guías de usuario</a>
+                    <a href="">Mapa de sitio</a>
+                    <a href="">Impacto en la sociedad</a>
+                    <a href="">Testimonios</a>
+                    <a href="">Becas</a>
+                </div>
+                <div class="acerca-de--bloque">
+                    <h3>Consigue la app</h3>
+                    <a class="contenedor-app" href="">
+                        <img src="img/playStore.png" alt="Disponble en Play Store">
+                    </a>
+                    <a class="contenedor-app" href="">
+                        <img src="img/appStore.png" alt="Consíguelo en el App Store">
+                </div>
+                </a>
+            </div>
+            <div class="derechos">
+                <p>&copy; Perú Campus S.A.C.</p>
+                <p>Todos los derechos reservados</p>
+            </div>
+        </footer>
+    </main>
+</body>
+
+</html>
