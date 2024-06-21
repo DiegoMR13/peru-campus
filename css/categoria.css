@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+/*variables*/
+:root {
+    --transition: all .25s;
+    --celeste-trans: rgba(212, 244, 253, 0.5);
+    --celeste-1: rgba(86, 216, 255, 0.4);
+    --celeste-2: rgba(86, 216, 255, 0.8);
+    --celeste-3: rgba(86, 216, 255);
+    --celeste-4: rgb(55, 199, 243);
+    --hr: rgb(225, 225, 225);
+    --gris-1: rgb(235, 235, 235);
+    --gris-2: rgb(180, 180, 180);
+    --gris-3: rgb(125, 125, 125);
+    --gris-4: rgb(60, 60, 60);
+    --estrellas: rgb(231, 179, 6);
+}
+
+body {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    padding: 0;
+    margin: 0;
+    transition: var(--transition);
+}
+
+hr {
+    border: 0.1px solid var(--hr);
+    background-color: white;
+    height: 0px;
+}
+
+.contenedor-seccion{
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.subtitulo {
+    font-size: 32px;
+    font-weight: 600;
+    margin-left: 20px;
+}
+
+.contenedor-y-flechas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+/****************
+    INFO
+    CATEGORÍA
+*****************/
+
+.info-categoria {
+    border-top: 1px solid var(--gris-1);
+    gap: 15px
+}
+
+.ruta {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.ruta > a:hover {
+    color: var(--celeste-4);
+}
+
+.mayor-que {
+    color:var(--gris-3);
+    font-size: 1.2em;
+    font-weight: 500;
+}
+.ruta--categoria-actual {
+    color: var(--gris-3);
+}
+
+
+.nombre-categoria {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+
+
+/****************
+    POPULARES
+    Y NUEVOS
+****************/
+
+
+.popular-o-nuevo {
+    border-bottom: 1px solid var(--gris-3);
+}
+.popular-o-nuevo span {
+    font-size: 1.3em;
+    padding: 10px 10px 0 10px;
+    box-sizing: border-box;
+
+}
+
+.popular-o-nuevo :first-child {
+    border-bottom: 3px solid black;
+    margin-right: 20px;
+    font-weight: 500;
+}
+
+.popular-o-nuevo span:hover {
+    cursor: pointer;
+}
+
+
+
+/****************
+    TODOS LOS
+    CURSOS
+****************/
+
+.todos-los-cursos {
+    border-top: 1px solid var(--gris-1);
+}
+
+.todos-los-cursos--contenedor-cursos {
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.todos-los-cursos--contenedor-cursos > * {
+    margin-bottom: 20px;
+}
+
+.todos-los-cursos > span {
+    font-size: 1.2em;
+    font-weight: 500;
+    align-self: center;
+    margin-bottom: 20px;
+}
+
+.todos-los-cursos > span:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}

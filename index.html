@@ -5,38 +5,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Perú Campus | Cursos de universidades e institutos peruanos</title>
-    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
 </head>
 
 <body>
-    <!--
-    <p class="uno" style="background-color: rgb(72, 186, 227);">uno</p>
-    <p class="dos" style="background-color: rgb(225, 230, 235);>dos</p>
-    <p class="tres" style="background-color: rgb(210, 236, 243);>tres</p>
-    <p class="cuatro" style="background-color: rgb(187, 233, 243);>cuatro</p>
-    <p class="cinco" style="background-color: rgb(15, 44, 67);>cinco</p>
-    <p class="seis" style="background-color: rgb(32, 127, 167);>seis</p>
-
-    --transition: all .25s;
-    --celeste-trans: rgba(212, 244, 253, 0.5);
-    --celeste-1: rgba(86, 216, 255, 0.4);
-    --celeste-2: rgba(86, 216, 255, 0.8);
-    --celeste-3: rgba(86, 216, 255);
-    --celeste-4: rgb(0, 201, 228);
-    --hr: rgb(225, 225, 225);
-    --gris-1: rgb(235, 235, 235);
-    --gris-2: rgb(180, 180, 180);
-    --gris-3: rgb(125, 125, 125);
-    --gris-4: rgb(60, 60, 60);
-    --estrellas: rgb(231, 179, 7);
-    -->
-
 
     <header>
         <nav>
             <ul class="header--lista">
                 <li>
-                    <a class="header--item" href="#">Categorías</a>
+                    <a class="header--item" href="categoria.html">Categorías</a>
                 </li>
                 <li>
                     <input class="barra-busqueda" type="text" placeholder="Busca entre más de 500 cursos">
@@ -76,7 +56,7 @@
             <p>Aprende de <a href="#">más de 50 instituciones peruanas</a></p>
             <div class="carrusel--instituciones">
                 <img src="img/logos/unmsm2.png" alt="logo universidad nacional mayor de san marcos">
-                <img src="img/logos/cato.png" alt="logo pontificia universidad católica del perú">
+                <img src="img/logos/cato.png" alt="logo pontificia universidad católica del Perú">
                 <img src="img/logos/cibertec.png" alt="logo Cibertec">
                 <img src="img/logos/upc.png" alt="logo UPC">
                 <img src="img/logos/uni.png" alt="logo universidad nacional de ingeniería">
@@ -87,23 +67,20 @@
             <h2 class="subtitulo">Cursos destacados</h2>
             <div class="contenedor-y-flechas">
                 <!--<div class="contenedor-de-flecha">-->
-                    <span class="ion--chevron-back-outline flecha"></span>
+                <span class="ion--chevron-back-outline flecha"></span>
                 <!--</div>-->
                 <div class="contenedor-destacados">
-                    <a href="">
+                    <a href="curso.html">
                         <img src="img/cursos/analisis_datos_python.jpg" alt="curso de análisis de datos con Python">
                     </a>
                     <div class="destacados--info-curso"><!--flex_colum_J-C:space-between-->
                         <div class="destacados--info-curso--informacion">
-                            <a href="#" class="destacados--nombre-institucion">Universidad Nacional de Ingeniería</a>
-                            <a href="#" class="destacados--nombre-curso">Análisis y visualización de datos con
-                                Python</a>
-                            <p class="destacados--descripcion-curso">Aprende a manejar y analizar datos usando Python
-                                con técnicas de recopilación, limpieza, visualización y modelado predictivo, utilizando
-                                bibliotecas como Pandas, NumPy y Scikit-learn.</p>
+                            <a href="#" class="destacados--nombre-institucion">Universidad Nacional Mayor de San Marcos</a>
+                            <a href="curso.html" class="destacados--nombre-curso">Investigación e Innovación Tecnológica</a>
+                            <p class="destacados--descripcion-curso">Este curso está diseñado para capacitar a los estudiantes en los fundamentos y metodologías de la investigación aplicada a la innovación tecnológica. Los participantes explorarán técnicas avanzadas para la identificación de problemas, la formulación de hipótesis, la recolección ...</p>
                             <div class="info-curso--etiquetas">
-                                <span class="info-curso--etiqueta">+ 20 horas</span>
-                                <span class="info-curso--etiqueta">37 clases</span>
+                                <span class="info-curso--etiqueta">+ 10 horas</span>
+                                <span class="info-curso--etiqueta">18 clases</span>
                             </div>
                         </div>
 
@@ -127,7 +104,7 @@
                     </div>
                 </div>
                 <!--<div class="contenedor-de-flecha">-->
-                    <span class="ion--chevron-forward-outline flecha"></span>
+                <span class="ion--chevron-forward-outline flecha"></span>
                 <!--</div>-->
             </div>
             <a href="#" class="btn-seccion">Más sobre <span>Análisis de Datos</span></a>
@@ -230,7 +207,7 @@
                             <div class="tarjeta--info-curso--texto-y-estrellas">
                                 <a href="" class="tarjeta--nombre-curso">Introducción al Derecho</a>
                                 <p class="tarejta--descripcion-curso">Obtendrás una visión general de los fundamentos
-                                    del sistema legal, incluyendo...</p>
+                                    del sistema ...</p>
                                 <div class="tarjeta--estrellas">
                                     <p>4.6</p>
                                     <span class="line-md--star-filled"></span>
@@ -260,7 +237,7 @@
         <section class="categorias contenedor-seccion">
             <h2 class="subtitulo">Explora diversas categorías</h2>
             <div class="contenedor-categorias">
-                <a href="">
+                <a href="categoria.html">
                     <h3>TECNOLOGÍAS DE LA INFORMACIÓN Y COMPUTACIÓN</h3>
                 </a>
                 <a href="">
@@ -527,7 +504,7 @@
                             <div class="tarjeta--info-curso--texto-y-estrellas">
                                 <a href="" class="tarjeta--nombre-curso">Termodinámica y Transferencia de Calor</a>
                                 <p class="tarejta--descripcion-curso">Estudia los principios de la termodinámica y sus
-                                    aplicaciones en la ...</p>
+                                    ...</p>
                                 <div class="tarjeta--estrellas">
                                     <p>4.6</p>
                                     <span class="line-md--star-filled"></span>
@@ -756,7 +733,7 @@
                 <div class="acerca-de--bloque">
                     <h3>Consigue la app</h3>
                     <a class="contenedor-app" href="">
-                        <img src="img/playStore.png" alt="Disponble en Play Store">
+                        <img src="img/playStore.png" alt="Disponible en Play Store">
                     </a>
                     <a class="contenedor-app" href="">
                         <img src="img/appStore.png" alt="Consíguelo en el App Store">

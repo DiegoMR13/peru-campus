@@ -1,0 +1,77 @@
+/*************
+    HEADER
+**************/
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 2px;
+}
+
+.barra-busqueda {
+    border-radius: 10px;
+    padding: 6px 8px;
+    width: 250px;
+    font-size: 0.8em;
+    font-weight: 400;
+    border: solid 2px black;
+}
+
+.contenedor-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    width: 150px;
+    height: 60px;
+}
+
+/*carrito*/
+.majesticons--shopping-cart-line {
+    display: inline-block;
+    width: 1.2em;
+    height: 1.2em;
+    --svg: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cg fill='none' stroke='%23000' stroke-linecap='round' stroke-linejoin='round' stroke-width='2'%3E%3Cpath d='M3 3h2l.5 3m0 0L7 15h11l3-9z'/%3E%3Ccircle cx='8' cy='20' r='1'/%3E%3Ccircle cx='17' cy='20' r='1'/%3E%3C/g%3E%3C/svg%3E");
+    background-color: currentColor;
+    -webkit-mask-image: var(--svg);
+    mask-image: var(--svg);
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-size: 100% 100%;
+    mask-size: 100% 100%;
+}
+
+.header--lista {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.header--lista li {
+    padding: 0 10px;
+}
+
+.header--item{
+    align-self: center;
+    transition: var(--transition);
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.header--item:hover {
+    color: var(--celeste-4);
+}
+
+.header--btn {
+    padding: 8px 14px;
+    border-radius: 10px;
+    border: 2px solid black;
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.header--btn:hover {
+    background-color: var(--celeste-2);
+}

@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+/*variables*/
+:root {
+    --transition: all .25s;
+    --celeste-trans: rgba(212, 244, 253, 0.5);
+    --celeste-1: rgba(86, 216, 255, 0.4);
+    --celeste-2: rgba(86, 216, 255, 0.8);
+    --celeste-3: rgba(86, 216, 255);
+    --celeste-4: rgb(55, 199, 243);
+    --hr: rgb(225, 225, 225);
+    --gris-1: rgb(235, 235, 235);
+    --gris-2: rgb(180, 180, 180);
+    --gris-3: rgb(125, 125, 125);
+    --gris-4: rgb(60, 60, 60);
+    --estrellas: rgb(231, 179, 6);
+}
+
+body {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    padding: 0;
+    margin: 0;
+    transition: var(--transition);
+}
+
+hr {
+    border: 0.5px solid var(--hr);
+    background-color: white;
+    height: 0px;
+}
+
+.contenedor-seccion{
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.subtitulo {
+    font-size: 32px;
+    font-weight: 600;
+    margin-left: 20px;
+}
+
+.contenedor-y-flechas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.line-md--star-filled {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    --svg: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%23000' fill-opacity='0' stroke='%23000' stroke-dasharray='32' stroke-dashoffset='32' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M12 3L9.65 8.76L3.44 9.22L8.2 13.24L6.71 19.28L12 16M12 3L14.35 8.76L20.56 9.22L15.8 13.24L17.29 19.28L12 16'%3E%3Canimate fill='freeze' attributeName='stroke-dashoffset' dur='0.5s' values='32;0'/%3E%3Canimate fill='freeze' attributeName='fill-opacity' begin='0.5s' dur='0.5s' values='0;1'/%3E%3C/path%3E%3C/svg%3E");
+    background-color: currentColor;
+    -webkit-mask-image: var(--svg);
+    mask-image: var(--svg);
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-size: 100% 100%;
+    mask-size: 100% 100%;
+}
+
+.line-md--star-filled-half {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    --svg: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='none' stroke='%23000' stroke-dasharray='32' stroke-dashoffset='32' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M12 3L9.65 8.76L3.44 9.22L8.2 13.24L6.71 19.28L12 16M12 3L14.35 8.76L20.56 9.22L15.8 13.24L17.29 19.28L12 16'%3E%3Canimate fill='freeze' attributeName='stroke-dashoffset' dur='0.5s' values='32;0'/%3E%3C/path%3E%3Cpath fill='%23000' fill-opacity='0' d='M12 3L9.65 8.76L3.44 9.22L8.2 13.24L6.71 19.28L12 16Z'%3E%3Canimate fill='freeze' attributeName='fill-opacity' begin='0.5s' dur='0.5s' values='0;1'/%3E%3C/path%3E%3C/svg%3E");
+    background-color: currentColor;
+    -webkit-mask-image: var(--svg);
+    mask-image: var(--svg);
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-size: 100% 100%;
+    mask-size: 100% 100%;
+}
+
+/*FLECHA IZQUIERDA*/
+.ion--chevron-back-outline {
+    display: inline-block;
+    width: 6em;
+    height: 5.5em;
+    --svg: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Cpath fill='none' stroke='%23000' stroke-linecap='round' stroke-linejoin='round' stroke-width='48' d='M328 112L184 256l144 144'/%3E%3C/svg%3E");
+    background-color: currentColor;
+    -webkit-mask-image: var(--svg);
+    mask-image: var(--svg);
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-size: 100% 100%;
+    mask-size: 100% 100%;
+}
+
+/*FLECHA DERECHA*/
+.ion--chevron-forward-outline {
+    display: inline-block;
+    width: 6em;
+    height: 5.5em;
+    --svg: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Cpath fill='none' stroke='%23000' stroke-linecap='round' stroke-linejoin='round' stroke-width='48' d='m184 112l144 144l-144 144'/%3E%3C/svg%3E");
+    background-color: currentColor;
+    -webkit-mask-image: var(--svg);
+    mask-image: var(--svg);
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-size: 100% 100%;
+    mask-size: 100% 100%;
+}
+
+.flecha {
+    color: var(--gris-2);
+    transition: var(--transition);
+}
+
+.flecha:hover {
+    color: var(--gris-3);
+    cursor: pointer;
+}
