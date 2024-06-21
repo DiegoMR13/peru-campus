@@ -128,3 +128,155 @@ hr {
     color: var(--gris-3);
     cursor: pointer;
 }
+
+
+/********************
+    INFO Y PRECIO
+    (DEL CURSO)
+*********************/
+
+.info-y-precio {
+    display: flex;
+    margin: 20px auto;
+}
+
+/*INFO*/
+.ruta-info-precio--info {
+    background-color: var(--celeste-1);
+    width: 900px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.ruta-info-precio--nombre-curso {
+    margin: 0;
+}
+
+.ruta-info-precio--institucion-curso {
+    color: var(--gris-3)
+}
+
+.ruta-info-precio--institucion-curso > a {
+    font-weight: 600;
+}
+
+.ruta-info-precio--institucion-curso > a:hover {
+    text-decoration: underline;
+}
+
+.contenedor-etiquetas {
+    margin-top: 20px;
+    align-self: flex-start;
+    display: flex;
+    gap: 150px
+}
+
+.ruta-info-precio--info ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.ruta-info-precio--info ul span {
+    font-weight: 600;
+}
+
+
+/*PRECIO*/
+.ruta-info-precio--precio {
+    width: 300px;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.precio-actual-y-normal {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.precio-actual-y-normal--precio {
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+.disponible-hasta {
+    font-size: 0.9em;
+    color: red;
+}
+
+.disponible-hasta::before{
+    content: "¡";
+}
+.disponible-hasta::after{
+    content: "!";
+}
+
+.añadir-lista-deseos {
+    display: flex;
+    gap: 5px;
+}
+
+/*corazón*/
+.mdi--heart {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    --svg: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%23000' d='m12 21.35l-1.45-1.32C5.4 15.36 2 12.27 2 8.5C2 5.41 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.08C13.09 3.81 14.76 3 16.5 3C19.58 3 22 5.41 22 8.5c0 3.77-3.4 6.86-8.55 11.53z'/%3E%3C/svg%3E");
+    background-color: currentColor;
+    -webkit-mask-image: var(--svg);
+    mask-image: var(--svg);
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-size: 100% 100%;
+    mask-size: 100% 100%;
+
+}
+
+.corazon {
+    transition: var(--transition);
+    font-size: 1.4em;
+    color: var(--gris-3);
+}
+
+.corazon:hover {
+    color: var(--celeste-4);
+}
+
+.añadir-lista-deseos > p:hover {
+    text-decoration: underline;
+    color: var(--celeste-4);
+}
+
+.reembolso-acceso p{
+    font-size: 0.9em;
+    color: var(--gris-3);
+}
+
+.añadir-carrito {
+    justify-self: flex-end;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 10px 0;
+    align-self: normal;
+}
+
+.añadir-carrito > * {
+    font-weight: 600;
+}
+
+.añadir-carrito:hover {
+    background-color: var(--celeste-2);
+}
