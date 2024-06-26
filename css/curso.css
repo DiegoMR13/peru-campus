@@ -49,6 +49,26 @@ hr {
     flex-direction: column;
 }
 
+.btn-seccion {
+    padding: 16px 24px;
+    border-radius: 10px;
+    background-color: var(--gris-1);
+    border: none;
+    cursor: pointer;
+    transition: var(--transition);
+    align-self: center;
+    font-size: 18px;
+}
+
+.btn-seccion:hover {
+    background-color: var(--gris-2);
+}
+
+.btn-seccion span {
+    font-weight: 600;
+    font-size: 18px;
+}
+
 .subtitulo {
     font-size: 32px;
     font-weight: 600;
@@ -279,4 +299,83 @@ hr {
 
 .añadir-carrito:hover {
     background-color: var(--celeste-2);
+}
+
+
+/*****************
+    APRENDERAS
+******************/
+
+.aprenderas {
+    border-bottom: 1px solid var(--gris-1);
+    padding-bottom: 30px;
+    box-sizing: border-box;
+}
+
+.aprenderas--lista {
+    padding-left: 45px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+/**************
+    MODULOS
+***************/
+
+.titulo-videos-tiempo {
+    display: flex;
+    justify-content: flex-start;
+    gap: 30px;
+    align-items: center;
+}
+
+/*punto*/
+.bi--dot {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    --svg: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath fill='%23000' d='M8 9.5a1.5 1.5 0 1 0 0-3a1.5 1.5 0 0 0 0 3'/%3E%3C/svg%3E");
+    background-color: currentColor;
+    -webkit-mask-image: var(--svg);
+    mask-image: var(--svg);
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-size: 100% 100%;
+    mask-size: 100% 100%;
+}
+.punto {
+    font-size: 3rem;
+    color: var(--gris-3);
+}
+
+.cant-videos, .tiempo-videos {
+    color: var(--gris-3);
+    font-size: 1.2rem;
+}
+
+
+
+
+/******************
+    MÁS DE LA 
+    INSTITUCION
+******************/
+
+.subtitulo > span {
+    color: var(--gris-3);
+    font-size: 24px;
+}
+
+
+
+
+/************
+    FOOTER
+*************/
+
+footer {
+    margin-top: 20px;
 }

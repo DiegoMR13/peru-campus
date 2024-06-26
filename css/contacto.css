@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+/*variables*/
+:root {
+    --transition: all .25s;
+    --celeste-trans: rgba(212, 244, 253, 0.5);
+    --celeste-1: rgba(86, 216, 255, 0.4);
+    --celeste-2: rgba(86, 216, 255, 0.8);
+    --celeste-3: rgba(86, 216, 255);
+    --celeste-4: rgb(55, 199, 243);
+    --hr: rgb(225, 225, 225);
+    --gris-1: rgb(235, 235, 235);
+    --gris-2: rgb(180, 180, 180);
+    --gris-3: rgb(125, 125, 125);
+    --gris-4: rgb(60, 60, 60);
+    --estrellas: rgb(231, 179, 6);
+}
+
+body {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    padding: 0;
+    margin: 0;
+    transition: var(--transition);
+}
+
+hr {
+    border: 0.5px solid var(--hr);
+    background-color: white;
+    height: 0px;
+}
+
+.contenedor-seccion {
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.btn-seccion {
+    padding: 16px 24px;
+    border-radius: 10px;
+    background-color: var(--gris-1);
+    border: none;
+    cursor: pointer;
+    transition: var(--transition);
+    align-self: center;
+    font-size: 18px;
+}
+
+.btn-seccion:hover {
+    background-color: var(--gris-2);
+}
+
+.btn-seccion span {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.subtitulo {
+    font-size: 32px;
+    font-weight: 600;
+    margin-left: 20px;
+}
+
+.contenedor-y-flechas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*********************
+    IMAGEN Y TITULO
+*********************/
+
+.imagen-y-titulo {
+    width: 1300px;
+    height: 380px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.70), rgba(255, 255, 255, 0.7)), url(../img/contac-sesion-regis/llamita-contac.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+/***********************
+    ASIDE - INFORMACIÓN
+************************/
+
+.info-y-formulario {
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+}
+
+
+.contacto--info {
+    width: 400px;
+    line-height: 2rem;
+}
+
+h2 {
+    padding: 20px 0;
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+
+.contacto--info--bloque {
+    border-top: 1px solid var(--gris-1);
+    padding: 20px 15px;
+}
+
+.contacto--info--bloque>div {
+    display: flex;
+    align-items: center;
+}
+
+.contacto--info--bloque h3 {
+    font-weight: 600;
+}
+
+/*celular*/
+.material-symbols-light--smartphone {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    --svg: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%23000' d='M7.616 22q-.691 0-1.153-.462T6 20.385V3.615q0-.69.463-1.152T7.616 2h8.769q.69 0 1.152.463T18 3.616v16.769q0 .69-.462 1.153T16.384 22zM7 18.5h10v-13H7z'/%3E%3C/svg%3E");
+    background-color: currentColor;
+    -webkit-mask-image: var(--svg);
+    mask-image: var(--svg);
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-size: 100% 100%;
+    mask-size: 100% 100%;
+}
+
+/*email*/
+.ic--outline-email {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    --svg: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%23000' d='M22 6c0-1.1-.9-2-2-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2zm-2 0l-8 5l-8-5zm0 12H4V8l8 5l8-5z'/%3E%3C/svg%3E");
+    background-color: currentColor;
+    -webkit-mask-image: var(--svg);
+    mask-image: var(--svg);
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-size: 100% 100%;
+    mask-size: 100% 100%;
+}
+
+/*reloj*/
+.tabler--clock {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    --svg: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cg fill='none' stroke='%23000' stroke-linecap='round' stroke-linejoin='round' stroke-width='2'%3E%3Cpath d='M3 12a9 9 0 1 0 18 0a9 9 0 0 0-18 0'/%3E%3Cpath d='M12 7v5l3 3'/%3E%3C/g%3E%3C/svg%3E");
+    background-color: currentColor;
+    -webkit-mask-image: var(--svg);
+    mask-image: var(--svg);
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-size: 100% 100%;
+    mask-size: 100% 100%;
+}
+
+
+.celular,
+.email,
+.reloj {
+    margin-right: 8px;
+    font-size: 1.4rem;
+}
+
+
+
+/*TABLAS*/
+table {
+    table-layout: fixed;
+    border-collapse: collapse;
+    border: 2px solid black;
+    margin-top: 10px;
+}
+
+th,
+td {
+    border: 2px solid black;
+    padding: 5px 12px;
+    text-align: center;
+}
+
+th {
+    text-align: left;
+    font-weight: 500;
+}
+
+
+
+
+/***************************
+    SECTION - FORMULARIO
+***************************/
+
+.contacto--formulario {
+    max-width: 600px;
+    line-height: 2rem;
+    /* background-color: green; */
+}
+
+form >
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    width: 95%;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid var(--gris-4);
+    box-shadow: 2px 2px 7px var(--gris-3);
+}
+
+button {
+    padding: 10px 25px;
+    border-radius: 5px;
+    border: 2px solid black;
+    cursor: pointer;
+    transition: var(--transition);
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+
+button:hover {
+    background-color: var(--celeste-2);
+}
+

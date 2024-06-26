@@ -1,11 +1,179 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Contacto | Perú Campus</title>
+    <link rel="stylesheet" href="css/contacto.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
 </head>
+
 <body>
-    
+    <header>
+        <nav>
+            <ul class="header--lista">
+                <li>
+                    <a class="header--item" href="categoria.html">Categorías</a>
+                </li>
+                <li>
+                    <input class="barra-busqueda" type="text" placeholder="Busca entre más de 500 cursos">
+                </li>
+            </ul>
+
+            <a href="index.html" class="contenedor-logo">
+                <img class="logo" src="img/logo_perucampus_nobg.png" alt="logo de Perú Campus">
+            </a>
+
+            <ul class="header--lista">
+                <li>
+                    <span class="majesticons--shopping-cart-line header--item"></span>
+                </li>
+                <li>
+                    <a class="header--item" href="iniciarsesion.html">Iniciar Sesión</a>
+                </li>
+                <li>
+                    <a href="registro.html" class="header--btn">Regístrate</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="imagen-y-titulo contenedor-seccion">
+            <h1 class="nombre-categoria subtitulo">Contacto</h1>
+        </section>
+
+        <div class="info-y-formulario">
+            <aside class="contacto--info contenedor-seccion">
+                <h2>Información de contacto</h2>
+
+                <div class="contacto--info--bloque">
+                    <div>
+                        <span class="material-symbols-light--smartphone celular"></span>
+                        <h3>Teléfono</h3>
+                    </div>
+                    <p>+51 951-691-984</p>
+                </div>
+
+                <div class="contacto--info--bloque">
+                    <div>
+                        <span class="ic--outline-email email"></span>
+                        <h3>E-mail</h3>
+                    </div>
+                    <p>contacto@perucampus.edu.pe</p>
+                </div>
+
+                <div class="contacto--info--bloque">
+                    <div>
+                        <span class="tabler--clock reloj"></span>
+                        <h3>Horario de atención</h3>
+                    </div>
+                    <!--TABLA-->
+                    <table class="horario">
+                        <tr>
+                            <th>Lunes</th>
+                            <td>8:00 - 18:00</td>
+                        </tr>
+                        <tr>
+                            <th>Martes</th>
+                            <td>8:00 - 18:00</td>
+                        </tr>
+                        <tr>
+                            <th>Miércoles</th>
+                            <td>8:00 - 18:00</td>
+                        </tr>
+                        <tr>
+                            <th>Jueves</th>
+                            <td>8:00 - 18:00</td>
+                        </tr>
+                        <tr>
+                            <th>Viernes</th>
+                            <td>8:00 - 18:00</td>
+                        </tr>
+                        <tr>
+                            <th>Sábado</th>
+                            <td>--</td>
+                        </tr>
+                        <tr>
+                            <th>Domingo</th>
+                            <td>--</td>
+                        </tr>
+                    </table>
+                </div>
+            </aside>
+
+            <section class="contacto--formulario contenedor-seccion">
+                <h2>Solicita una cotización</h2>
+
+                <form action="" method="post" class="form-formulario">
+                    <input type="text" name="nombre" required placeholder="Nombres*">
+                    <input type="text" name="apellidos" required placeholder="Apellidos*">
+                    <input type="email" name="email" required placeholder="Correo electrónico*">
+                    <input type="tel" name="celular" required placeholder="Teléfono/Celular*">
+                    <input type="text" name="cargo" required placeholder="Cargo en la institución*">
+                    <input type="text" name="institucion" required placeholder="Nombre de la institución*">
+                    <input type="text" name="ciudad" required placeholder="Ciudad*">
+                    <input type="text" name="asunto" required placeholder="Asunto*">
+                    <textarea name="mensaje" rows="4" placeholder="Mensaje*"></textarea>
+                    <button type="submit">Enviar</button>
+                </form>
+            </section>
+
+        </div>
+    </main>
+
+    <footer>
+        <div class="logo-y-redes">
+            <a href="index.html">
+                <img class="footer--logo" src="img/logo_perucampus_nobg.png" alt="logo de Perú Campus">
+            </a>
+            <div class="redes">
+                <span class="ic--baseline-facebook"></span>
+                <span class="mage--instagram-circle"></span>
+                <span class="entypo-social--linkedin-with-circle"></span>
+                <span class="ri--twitter-x-fill"></span>
+            </div>
+        </div>
+        <div class="acerca-de">
+            <div class="acerca-de--bloque">
+                <h3>Perú Campus</h3>
+                <a href="">Acerca de</a>
+                <a href="">Categorías</a>
+                <a href="">Universidades</a>
+                <a href="">Institutos</a>
+                <a href="">Promociones</a>
+                <a href="">Contacto</a>
+                <a href="">Iniciar sesión</a>
+                <a href="">Registrarse</a>
+                <a href="">Biblioteca virtual</a>
+            </div>
+            <div class="acerca-de--bloque">
+                <h3>Más</h3>
+                <a href="">Ayuda y soporte</a>
+                <a href="">Preguntas frecuentes</a>
+                <a href="">Guías de usuario</a>
+                <a href="">Mapa de sitio</a>
+                <a href="">Impacto en la sociedad</a>
+                <a href="">Testimonios</a>
+                <a href="">Becas</a>
+            </div>
+            <div class="acerca-de--bloque">
+                <h3>Consigue la app</h3>
+                <a class="contenedor-app" href="">
+                    <img src="img/playStore.png" alt="Disponible en Play Store">
+                </a>
+                <a class="contenedor-app" href="">
+                    <img src="img/appStore.png" alt="Consíguelo en el App Store">
+            </div>
+            </a>
+        </div>
+        <div class="derechos">
+            <p>&copy; Perú Campus S.A.C.</p>
+            <p>Todos los derechos reservados</p>
+        </div>
+    </footer>
 </body>
+
 </html>
