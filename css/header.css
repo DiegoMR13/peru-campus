@@ -49,12 +49,11 @@ nav {
     align-items: center;
 }
 
-.header--lista li {
+.header--lista > li {
     padding: 0 10px;
 }
 
 .header--item{
-    align-self: center;
     transition: var(--transition);
     cursor: pointer;
     font-size: 18px;
@@ -107,4 +106,43 @@ elemento padre
 }
 .ruta--categoria-actual {
     color: var(--gris-3);
+}
+
+
+/**************************
+    SUBMENU - CATEGORIA
+***************************/
+
+
+.header--lista {
+    position: relative;
+}
+
+.submenu-categorias {
+    position: absolute;
+    left: -10px;
+    list-style: none;
+    background-color: white;
+    visibility: hidden;
+    transition: var(--transition);
+}
+
+.submenu-categorias li {
+    display: block;
+    padding: 4px 20px;
+    border-bottom: 1px solid var(--gris-1);
+}
+
+.submenu-categorias li a {
+    font-size: 14px;
+    transition: 0s;
+}
+
+.submenu-categorias li a:hover {
+    color: var(--celeste-4);
+}
+
+.header--lista li:hover .submenu-categorias {
+    visibility: visible;
+    z-index: 1;
 }

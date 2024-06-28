@@ -92,7 +92,13 @@ hr {
     justify-content: center;
     align-items: center;
     background-color: white;
-    background-image: linear-gradient(rgba(255, 255, 255, 0.70), rgba(255, 255, 255, 0.7)), url(../img/contac-sesion-regis/llamita-contac.jpg);
+    background-image: 
+        linear-gradient(to right, 
+            rgba(255, 255, 255, 1) 0%, 
+            rgba(255, 255, 255, 0.5) 15%, 
+            rgba(255, 255, 255, 0.5) 85%, 
+            rgba(255, 255, 255, 1) 100%), 
+        url(../img/contac-sesion-regis/llamita-contac.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;

@@ -1,0 +1,485 @@
+LOGO SECCION INSTITUCIONES:
+
+> SAN MARCOS
+> UNI
+> CIBERTEC
+> CATO
+> UPC
+
+
+
+MÁS INSTITUCIONES:
+
+> CAYETANO
+> VILLAREAL
+> ESAN
+> AGRARIA
+> LA DEL CALLAO
+> ISIL
+> TECSUP
+> USIL
+> LA DE LIMA
+> UTEC
+> UPN
+> CESAR VALLEJO
+> CIENTÍFICA DEL SUR
+> UTP
+> AUTÓNOMA
+> SAN MARTIN
+> DEL PACIFICO
+> LA DE PIURA
+> RICARDO PALMA
+
+
+CATEGORÍAS:
+
+1 Tecnologías de la Información y Computación
+2 NEGOCIOS Y EMPRENDIMIENTO
+3 CIENCIAS DE LA SALUD
+4 CIENCIAS SOCIALES Y HUMANIDADES
+5 ARTE Y DISEÑO
+6 CIENCIAS EXACTAS Y NATURALES
+7 EDUCACION Y DESARROLLO PROFESIONAL
+8 INGENIERÍA
+9 DERECHO Y CIENCIAS JURÍDICAS
+10 DESARROLLO PERSONAL
+11 MEDIOS Y COMUNICACIÓN
+12 CIENCIAS DE LA TIERRA Y DEL ESPACIO
+
+
+
+
+CURSOS DESTACADOS:
+
+1. UNI - ANÁLISIS Y VISUALIZACION DE DATOS CON PYTHON - Aprende a manejar y analizar datos usando Python con técnicas de recopilación, limpieza, visualización y modelado predictivo, utilizando bibliotecas como Pandas, NumPy y Scikit-learn. - +20 HORAS - 37 CLASES - 4.9 - 49.90
+
+2. cibertec - Introduccion al Diseño de Interiores - El curso " introduccion al Diseño de Interiores" te brinda las habilidades esenciales para transformar espacios interiores, combinando funcionalidad y estética. Aprenderás sobre planificación del espacio, selección de colores, materiales y mobiliario, así como las tendencias actuales en diseño. Ideal para quienes desean iniciar una carrera en diseño de interiores o mejorar sus habilidades creativas. - +3 HORAS - 10 CLASES - 4.8 - 29.9
+
+3. DEL PACIFICO - Gestión de Proyectos y Metodologías Ágiles - Aprenderás a planificar, ejecutar y gestionar proyectos de manera eficiente utilizando enfoques ágiles como Scrum y Kanban. Aprenderás a adaptarte rápidamente a cambios, mejorar la colaboración del equipo y entregar resultados de alta calidad en plazos más cortos. Ideal para profesionales que buscan optimizar la gestión de proyectos y adoptar prácticas modernas que impulsen la innovación y la productividad. - +15 HORAS - 31 CLASES - 4.8 - 44.90
+
+
+PROMOCIONES:
+
+1. AGRARIA - Introducción a la Biología Molecular y Genética - Explora los fundamentos de la biología molecular y la genética, incluyendo la estructura del ADN y la herencia genética. - 4.6 - GRATIS
+
+2. LA DE PIURA - La Ciencia de la Mente y el Comportamiento - Descubre los fundamentos científicos de la psicología y explora cómo esta disciplina nos ayuda a entender el comportamiento humano en toda su complejidad. - 4.8 - x49.90x 9.90
+
+3. upc - Gestión del Tiempo y Productividad - Técnicas y estrategias para mejorar la gestión del tiempo y aumentar la productividad personal. - 4.7 - x49.90x 14.90 
+
+4. san martin - Introducción al Derecho - Obtendrás una visión general de los fundamentos del sistema legal, incluyendo las principales ramas del derecho y sus aplicaciones. Ideal para quienes buscan comprender las bases jurídicas esenciales. - 4.7 - gratis
+
+5. uni - Astronomía Observacional - El curso "Astronomía Observacional" te introduce a las técnicas y herramientas utilizadas para observar y analizar cuerpos celestes. Aprenderás a manejar telescopios, registrar datos y comprender fenómenos astronómicos. Ideal para aficionados y estudiantes que desean explorar el universo de manera práctica. - 4.9 - gratis
+
+6. isil - Periodismo Digital - El curso "Periodismo Digital" te enseña las habilidades necesarias para producir y distribuir contenido informativo en plataformas digitales. Aprenderás sobre redacción web, SEO, manejo de redes sociales y herramientas multimedia. Ideal para periodistas y comunicadores que desean adaptarse al entorno digital actual. - 4.5 - x49.9x 19.9
+
+
+
+
+CATEGORÍA: NEGOCIOS Y EMPRENDIMIENTO
+
+1. ESAN - Marketing Digital y Estrategias en Redes Sociales - Aprende a desarrollar y ejecutar campañas de marketing digital efectivas, utilizando herramientas y estrategias para maximizar la presencia en redes sociales. Ideal para emprendedores y profesionales que buscan aumentar la visibilidad de sus marcas online - 4.7 - 45.90
+
+2. DEL PACIFICO - Desarrollo de Modelos de Negocio - Conoce los conceptos clave de las finanzas empresariales, incluyendo la gestión de flujo de caja, inversiones y financiación. Esencial para emprendedores que buscan tomar decisiones financieras informadas y sostenibles - 4.6 - 70.00
+
+3. USIL - Finanzas para Emprendedores - Conoce los conceptos clave de las finanzas empresariales, incluyendo la gestión de flujo de caja, inversiones y financiación. Esencial para emprendedores que buscan tomar decisiones financieras informadas y sostenibles. - 4.7 - 49.9
+
+4. CESAR VALLEJO - Gestión de Proyectos y Metodologías Ágiles - Aprende a planificar, ejecutar y gestionar proyectos utilizando enfoques ágiles como Scrum y Kanban, mejorando la eficiencia y adaptabilidad. Ideal para profesionales que desean optimizar la gestión de proyectos en entornos dinámicos - 4.6 - 39.90
+
+5. LA DE PIURA - Liderazgo y Gestión de Equipos - Desarrolla habilidades de liderazgo y técnicas de gestión para formar y motivar equipos efectivos. Dirigido a emprendedores y gerentes que buscan mejorar el desempeño y la cohesión de sus equipos de trabajo. - 4.5 - 90.00
+
+6. SAN MARTIN - Innovación y Creatividad en los Negocios - Descubre cómo fomentar la innovación y aplicar la creatividad en el desarrollo de productos y servicios. Perfecto para aquellos que desean impulsar el crecimiento y la competitividad de sus empresas a través de ideas innovadoras. - 4.6 - 49.90
+
+
+
+CATEGORÍA: INGENIERÍA
+
+1. UNMSM - Fundamentos de Ingeniería ELECTRÓNICA  - Aprende los principios básicos de la ingeniería eléctrica, incluyendo circuitos, sistemas de potencia y electromagnetismo. Ideal para estudiantes preuniversitarios que desean una sólida base en los conceptos eléctricos y electrónicos. - 4.9 - 19.90
+
+2. UTEC - Cálculo y Álgebra Lineal para Ingenieros - Curso integral sobre técnicas avanzadas de cálculo y álgebra lineal aplicadas a la resolución de problemas de ingeniería. Esencial para estudiantes de pregrado que buscan reforzar sus habilidades matemáticas en contextos ingenieriles. - 4.8 - GRATIS
+
+3. UNI - Mecánica de Materiales I - Explora la teoría y aplicación de la mecánica de materiales, incluyendo el análisis de tensión, deformación y propiedades de los materiales. Dirigido a estudiantes que buscan comprender el comportamiento de los materiales bajo diferentes condiciones de carga. - 4.6 - 19.90
+
+4. UTEC - Termodinámica y Transferencia de Calor - Estudia los principios de la termodinámica y sus aplicaciones en la transferencia de calor y energía. Ideal para estudiantes de ingeniería mecánica y otras disciplinas que requieren un entendimiento profundo de estos conceptos. - 4.6 - 29.90
+
+5. TECSUP - Fundamentos de la Ingeniería de Software - Curso sobre métodos y prácticas esenciales en el desarrollo de software, cubriendo desde la planificación y diseño hasta la implementación y mantenimiento. Ideal para estudiantes de ingeniería informática que buscan una base sólida en los principios de la ingeniería de software. - 4.8 - 29.90
+
+6. UNI - Diseño y Análisis de Sistemas de Control - Aprende sobre el diseño y análisis de sistemas de control, incluyendo modelado, estabilidad y respuesta de sistemas dinámicos. Perfecto para estudiantes de ingeniería que desean especializarse en automatización y control de procesos. - 4.8 - 19.9
+
+
+
+CATEGORÍA: CIENCIAS DE LA SALUD
+
+1. CAYETANO - Primeros Auxilios y Respuesta de Emergencia - Aprende técnicas esenciales de primeros auxilios, incluyendo RCP, control de hemorragias y manejo de emergencias comunes. Ideal para cualquier persona que desee estar preparada para responder eficazmente en situaciones de emergencia - 4.9 - GRATIS
+
+2. san martin - Introducción a la Anatomía y Fisiología Humana - Explora los conceptos básicos de la anatomía y fisiología del cuerpo humano, abarcando todos los sistemas principales. Perfecto para estudiantes preuniversitarios y aquellos interesados en el campo de la salud. - 4.8 - 19.90
+
+3. USIL - Fundamentos de la Enfermería - Curso introductorio sobre las prácticas y principios de la enfermería, incluyendo cuidado del paciente, administración de medicamentos y ética profesional. Ideal para quienes consideran una carrera en enfermería. - 4.7 - 39.90
+
+4. UPC - Nutrición y Bienestar - Conoce los principios básicos de la nutrición, incluyendo la composición de alimentos, requerimientos nutricionales y dietas saludables. Perfecto para aquellos interesados en promover el bienestar a través de la alimentación. - 4.8 - 29.90
+
+5. piura - Salud Pública y Epidemiología- Curso sobre los fundamentos de la salud pública, incluyendo la prevención de enfermedades, promoción de la salud y estudios epidemiológicos. Esencial para estudiantes y profesionales interesados en el impacto de la salud a nivel comunitario. - 4.6 - 29.90
+
+6. UNMSM - Genética y Biología Molecular Avanzada - Explora en profundidad los principios de la genética y biología molecular, incluyendo la estructura del ADN, la expresión génica y la ingeniería genética. Ideal para estudiantes avanzados que buscan especializarse en investigación biomédica y biotecnología. - 4.7 - 49.90
+
+
+
+TESTIMONIOS:
+
+>Christian Yovera
+
+Especialista de ingeniería de datos en MiBanco
+
+"Mi experiencia en PerúCampus fue increíble. Cerré brechas en técnicas avanzadas y apliqué nuevos conocimientos en proyectos reales en MiBanco, mejorando análisis y liderazgo. Recomiendo este programa a cualquier profesional que busque llevar sus habilidades al siguiente nivel."
+
+Machine Learning y Análisis de Datos con Python
+
+villareal
+
+
+> Valentina Lavi
+
+ESTUDIANTE DE Medicina Humana
+
+"Llevar este curso ha sido enriquecedor. Explorar y profundizar en áreas que me apasionan ha fortalecido mi compromiso con el aprendizaje. Estoy emocionada por aplicar estos nuevos conocimientos y contribuir significativamente en mi campo."
+
+Fundamentos de la Enfermería
+
+Universidad SAN IGNACIO DE LOYOLA
+
+> Dennis Medina
+
+ESTUDIANTE DE Ingeniería civil 
+
+"Mi experiencia en este curso fue emocionante y reveladora para mi carrera como ingeniero civil. Gracias al enfoque claro y detallado, llené vacíos de conocimiento y apliqué nuevas técnicas en proyectos actuales. Este curso mejoró mi capacidad profesional preparándome para nuevos desafíos y oportunidades."
+ 
+Diseño y Análisis de Sistemas de Control
+
+Universidad Nacional de Ingeniería
+
+
+
+FOOTER:
+
+PERÚ CAMPUS:
+Acerca de
+Categorías
+Universidades
+Institutos
+Promociones
+Contacto
+Iniciar Sesión 
+Registrarse
+Biblioteca Virtual
+
+Más:
+
+Ayuda y soporte
+Preguntas frecuentes
+Guías de usuario
+Mapa de sitio
+Impacto en la sociedad
+Testimonios
+Becas
+
+
+
+** página de categoría **
+
+Tecnología de la Información y Computación -
+ 
+La categoría "Tecnología de la Información y Computación" abarca una amplia gama de cursos diseñados para proporcionar conocimientos y habilidades esenciales en el ámbito de la informática y las tecnologías digitales. En esta categoría, encontrarás temas como programación en diversos lenguajes (Python, Java, C++), desarrollo de aplicaciones web y móviles, inteligencia artificial y machine learning, bases de datos y SQL, así como seguridad cibernética y redes. Además, se incluyen cursos sobre sistemas operativos, ingeniería de software, computación en la nube y análisis de datos. Esta categoría es ideal tanto para principiantes como para profesionales que buscan actualizar sus competencias tecnológicas y avanzar en sus carreras en el dinámico campo de la TI y la computación.
+
+
+POPULARES:
+
+1. UNMSM
+Este curso está diseñado para capacitar a los estudiantes ...
+4.9
+59.90
+
+2. CIBERTEC - 
+Desarrollo Web con HTML, CSS y JavaScript - Aprende a crear sitios web interactivos y atractivos utilizando HTML para la estructura, CSS para el diseño y JavaScript para la interactividad, adecuado para niveles principiantes e intermedios. - 
+4.9 - 
+39.90
+
+3. UNI - 
+Machine Learning y Análisis de Datos con Python-
+Curso avanzado que cubre técnicas de machine learning y análisis de datos utilizando Python, adecuado para estudiantes con conocimientos previos en programación y estadística. - 
+4.8
+59.90
+
+
+4. VILLAREAL
+Introducción a la Inteligencia Artificial
+Curso básico que introduce los conceptos fundamentales de la inteligencia artificial, incluyendo algoritmos de búsqueda, aprendizaje automático y redes neuronales
+4.8
+40.00
+
+5. UNMSM - 
+Introducción a la Programación en Python -
+Curso diseñado para principiantes que desean aprender los fundamentos de la programación utilizando Python, un lenguaje de programación versátil y fácil de aprender. 
+4.9
+GRATIS
+
+
+5. UTEC - 
+Seguridad Cibernética y Hacking Ético
+Curso intermedio-avanzado sobre técnicas de seguridad cibernética, hacking ético y defensa contra amenazas, ideal para profesionales de la seguridad informática y redes
+4.8
+49.90
+
+6. DEL CALLAO
+Bases de Datos y SQL para Principiantes
+Curso introductorio sobre bases de datos relacionales y el lenguaje SQL, ideal para principiantes interesados en almacenar y manipular datos de manera eficiente.
+4.9
+19.90
+
+
+
+
+
+todos los CURSOS:
+
+1. ISIL 
+Desarrollo de Aplicaciones Móviles con Android
+Aprende a desarrollar aplicaciones móviles para dispositivos Android utilizando Java o Kotlin, adecuado para desarrolladores con conocimientos básicos de programación
+4.7
+49.90
+
+2. CIBERTEC
+Desarrollo de Aplicaciones Web con React.js
+Aprende a construir aplicaciones web modernas y escalables utilizando React.js, un framework JavaScript popular y de código abierto, adecuado para desarrolladores web intermedios.
+4.6
+49.90
+
+3. UNI 
+Administración de Sistemas Linux
+Curso sobre administración de sistemas Linux, incluyendo configuración, mantenimiento y resolución de problemas en entornos de servidor.
+4.8
+50.00
+
+4. ESAN
+Ingeniería de Software Ágil con Scrum
+Curso que explora los principios y prácticas de la ingeniería de software ágil, con un enfoque en la metodología Scrum para la gestión de proyectos de desarrollo de software.
+4.9
+69.90
+
+5. RICHI
+Desarrollo de Aplicaciones de Escritorio con Java
+Aprende a crear aplicaciones de escritorio multiplataforma utilizando Java, incluyendo interfaces gráficas de usuario (GUI) y acceso a bases de datos, adecuado para niveles intermedios.
+4.8
+79.90
+
+6. SAN MARTIN
+Cloud Computing con Amazon Web Services (AWS)
+curso avanzado sobre servicios en la nube de AWS, cubriendo temas como almacenamiento, computación, redes y seguridad en la nube, adecuado para profesionales de TI con experiencia.
+4.8
+69.90
+
+
+7. 
+UPN
+Desarrollo de Aplicaciones Empresariales con .NET
+Aprende a desarrollar aplicaciones empresariales escalablutees y seguras utilizando el framework .NET de Microsoft, adecuado para desarrolladores con experiencia en C# y ASP.NET.
+4.5
+69.90
+
+8.
+UTEC
+Automatización de Pruebas de Software con Selenium
+Aprende a automatizar pruebas de software utilizando Selenium, una herramienta de código abierto para la automatización de navegadores web, adecuado para profesionales de pruebas de software.
+4.6
+79.90
+
+9. 
+ISIL
+Desarrollo de Aplicaciones de Realidad Virtual
+Aprende a crear experiencias de realidad virtual inmersivas utilizando Unity, un motor de desarrollo de juegos popular, adecuado para desarrolladores intermedios y avanzados.
+4.8
+100.00
+
+10. 
+UNMSM
+Análisis Forense Digital
+Curso avanzado sobre análisis forense digital, cubriendo técnicas y herramientas para investigar incidentes de seguridad informática y delitos cibernéticos.
+4.6
+49.90
+
+11. 
+UNI
+Arquitectura de Microservicios y Contenedores
+Aprende a diseñar y desplegar aplicaciones escalables y flexibles utilizando arquitecturas de microservicios y contenedores Docker, adecuado para profesionales de desarrollo de software con experiencia.
+4.7
+50.00
+
+12.
+TECSUP
+Introducción a la Ciberseguridad
+Curso básico que cubre los conceptos fundamentales de la ciberseguridad, incluyendo amenazas, vulnerabilidades y medidas de protección, ideal para principiantes interesados en la seguridad informática.
+4.9
+GRATIS
+
+
+
+
+
+7. (REPETIDO)
+UNI 
+Introducción a la Inteligencia Artificial
+Curso básico que introduce los conceptos fundamentales de la inteligencia artificial, incluyendo algoritmos de búsqueda, aprendizaje automático y redes neuronales
+4.8
+20.00
+
+
+8. (REPETIDO)
+CIBERTEC
+Desarrollo de Aplicaciones Web con React.js
+Aprende a construir aplicaciones web modernas y escalables utilizando React.js, un framework JavaScript popular y de código abierto, adecuado para desarrolladores web intermedios.
+4.6
+49.90
+
+9. (REPETIDO)
+RICHI
+Desarrollo de Aplicaciones de Escritorio con Java
+Aprende a crear aplicaciones de escritorio multiplataforma utilizando Java, incluyendo interfaces gráficas de usuario (GUI) y acceso a bases de datos, adecuado para niveles intermedios.
+4.8
+79.90
+
+10. (REPETIDO)
+ESAN
+Ingeniería de Software Ágil con Scrum
+Curso que explora los principios y prácticas de la ingeniería de software ágil, con un enfoque en la metodología Scrum para la gestión de proyectos de desarrollo de software.
+4.9
+69.90
+
+11. (REPETIDO)
+SAN MARTIN
+Cloud Computing con Amazon Web Services (AWS)
+curso avanzado sobre servicios en la nube de AWS, cubriendo temas como almacenamiento, computación, redes y seguridad en la nube, adecuado para profesionales de TI con experiencia.
+4.8
+69.90
+
+12. 
+UNMSM
+INVESTIGACION E INNOVACION TECNOLÓGICA
+Este curso explora los fundamentos de la investigación y la innovación en el ámbito tecnológico, abordando temas como métodos de investigación, análisis de datos, generación de ideas innovadoras y desarrollo de soluciones tecnológicas. Es adecuado para estudiantes y profesionales interesados en aprender cómo llevar a cabo investigaciones efectivas y aplicar procesos de innovación en proyectos tecnológicos.
+4.8
+50.00
+
+
+
+
+PAGINA INFO DE CURSO:
+
+Investigación e Innovación Tecnológica
+ 
+Este curso está diseñado para capacitar a los estudiantes en los fundamentos y metodologías de la investigación aplicada a la innovación tecnológica. Los participantes explorarán técnicas avanzadas para la identificación de problemas, la formulación de hipótesis, la recolección y análisis de datos, y la aplicación de resultados en contextos prácticos. Es adecuado para estudiantes y profesionales para que logren el enfoque en la integración de nuevas tecnologías y así impulsar la innovación en diversos sectores industriales y académicos.
+ 
+Impartido por Universidad Nacional Mayor de San Marcos 
+ 
++784                              4.9
+9 horas                         
+Nivel básico
+ 
+-Comprender los principios de la investigación científica aplicada a la tecnología.
+-Desarrollar habilidades para la identificación de problemas tecnológicos y la formulación de hipótesis.
+-Aprender metodologías avanzadas para la recolección, análisis e interpretación de datos.
+-Aplicar resultados de investigación para la generación de soluciones innovadoras.
+-Explorar el impacto de la tecnología en la transformación de industrias y sectores económicos.
+ 
+Temario del Curso:
+ 
+Módulo 1: Introducción a la Investigación Tecnológica
+ 
+Importancia de la investigación en el avance tecnológico
+Métodos de investigación: cualitativos y cuantitativos
+Ética en la investigación tecnológica
+ 
+Módulo 2: Diseño y Formulación de Proyectos de Investigación
+ 
+Identificación de problemas y formulación de preguntas de investigación
+Establecimiento de objetivos y alcance del proyecto
+Marco teórico y revisión de literatura
+ 
+Módulo 3: Métodos de Recolección y Análisis de Datos
+ 
+Técnicas de recolección de datos: encuestas, entrevistas, experimentos, etc.
+Análisis cualitativo y cuantitativo de datos
+Herramientas y software para análisis de datos
+ 
+Módulo 4: Innovación Tecnológica y Desarrollo de Prototipos
+ 
+Conceptos de innovación tecnológica y desarrollo de productos
+Métodos ágiles para la gestión de proyectos de innovación
+Creación y evaluación de prototipos tecnológicos
+ 
+Módulo 5: Aplicaciones de la Investigación en Sectores Específicos
+ 
+Casos de estudio de éxito en la aplicación de la investigación tecnológica
+Impacto de la tecnología en sectores como salud, educación, energía, etc.
+Estrategias para la transferencia de tecnología y comercialización de resultados
+ 
+Módulo 6: Gestión de Proyectos de Investigación e Innovación
+ 
+Planificación y gestión de proyectos de investigación
+Evaluación de resultados y elaboración de informes técnicos
+Financiamiento y fuentes de apoyo para proyectos de investigación
+
+
+
+
+/* CURSOS RELACIONADOS */
+
+1. 
+villareal
+Fundamentos de la Investigación Tecnológica
+Este módulo introduce los principios básicos de la investigación científica aplicada a la tecnología, incluyendo metodologías de investigación, diseño experimental y análisis de datos.
+4.7
+S/19.90
+
+
+2.
+callao
+Metodologías de Innovación en Tecnología
+Se exploran las diferentes metodologías de innovación, como el Design Thinking y el Lean Startup, y su aplicación en el desarrollo de nuevas tecnologías y productos.
+4.6
+S/29.90
+
+3.
+upc
+Evaluación y Gestión de Proyectos Tecnológicos
+Aquí se abordan las técnicas y herramientas para la evaluación, planificación y gestión de proyectos tecnológicos, incluyendo análisis de viabilidad y gestión de riesgos.
+4.8
+S/49.90
+
+
+4.
+uni
+Propiedad Intelectual y Patentes en Tecnología
+Este módulo cubre los aspectos legales y estratégicos de la propiedad intelectual, con un enfoque en la protección de innovaciones tecnológicas mediante patentes y otros mecanismos legales.
+4.9
+S/70.00
+
+
+5.
+Tendencias Emergentes en Innovación Tecnológica
+Se analizan las tendencias actuales y emergentes en tecnología, como la inteligencia artificial, la biotecnología y el internet de las cosas, y su impacto en diversos sectores.
+
+6.
+Ética y Responsabilidad en la Innovación Tecnológica
+Se discuten las implicaciones éticas y sociales de la innovación tecnológica, incluyendo temas de privacidad, seguridad y el impacto de la tecnología en la sociedad y el medio ambiente.
+
+
+MAS CURSOS DE ...
+
+2.
+Introducción a la Astronomía
+Este módulo proporciona una visión general de la astronomía, abarcando temas como la estructura del universo, la formación de estrellas y galaxias, y la observación del cosmos.
+4.8
+gratis
+
+3.
+Manejo del Estrés y Bienestar Mental
+Este módulo cubre estrategias y técnicas para manejar el estrés y promover el bienestar mental, incluyendo la meditación, la atención plena (mindfulness) y el equilibrio entre la vida personal y profesional.
+
+

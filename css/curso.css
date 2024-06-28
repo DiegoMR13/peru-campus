@@ -163,7 +163,7 @@ hr {
 /*INFO*/
 .ruta-info-precio--info {
     background-color: var(--celeste-1);
-    width: 900px;
+    width: 820px;
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -208,7 +208,7 @@ hr {
 
 /*PRECIO*/
 .ruta-info-precio--precio {
-    width: 300px;
+    width: 380px;
     padding: 0 20px;
     display: flex;
     flex-direction: column;
