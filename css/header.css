@@ -1,11 +1,15 @@
 /*************
     HEADER
 **************/
+body {
+    overflow-y: scroll;
+}
+
 nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 8px 2px;
+    box-sizing: border-box;
+    display: grid;
+    padding: 8px 10px;
+    grid-template-columns: repeat(3, 1fr);
 }
 
 .barra-busqueda {
@@ -47,10 +51,15 @@ nav {
     list-style: none;
     display: flex;
     align-items: center;
+    gap: 20px
 }
 
-.header--lista > li {
-    padding: 0 10px;
+.header--lista-der {
+    justify-content: flex-end;
+}
+
+.header--lista-der li {
+    display: flex;
 }
 
 .header--item{
@@ -124,7 +133,7 @@ elemento padre
     list-style: none;
     background-color: white;
     visibility: hidden;
-    transition: var(--transition);
+    transition: 0s;
 }
 
 .submenu-categorias li {

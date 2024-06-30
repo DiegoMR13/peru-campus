@@ -14,7 +14,7 @@
         <nav>
             <ul class="header--lista">
                 <li>
-                    <a class="header--item" href="categoria.html">Categorías</a>
+                    <a class="header--item">Categorías</a>
                     <ul class="submenu-categorias">
                         <li><a href="categoria.html">Tecnologías de la Información y Computación</a></li>
                         <li><a href="">Negocios y emprendimiento</a></li>
@@ -39,7 +39,7 @@
                 <img class="logo" src="img/logo_perucampus_nobg.png" alt="logo de Perú Campus">
             </a>
 
-            <ul class="header--lista">
+            <ul class="header--lista header--lista-der">
                 <li>
                     <span class="majesticons--shopping-cart-line header--item"></span>
                 </li>
@@ -64,10 +64,10 @@
                     <div class="linea"></div>
                 </div>
 
-                <div class="contenedor-rr">
-                    <a href="#"><img src="img/google.jpg" alt="" class="rs"></a>
-                    <a href="#"><img src="img/linkedin.png" alt="" class="rs"></a>
-                    <a href="#"><img src="img/github.png" alt="" class="rs"></a>
+                <div class="contenedor-redes-sociales">
+                    <a href="#"><img src="img/google.jpg" alt="google" class="red-social"></a>
+                    <a href="#"><img src="img/linkedin.png" alt="linkedin" class="red-social"></a>
+                    <a href="#"><img src="img/github.png" alt="github" class="red-social"></a>
                 </div>
 
                 <div class="contenedor-linea">
@@ -75,23 +75,23 @@
                     <p>o</p>
                     <div class="linea"></div>
                 </div>
-
-                <div class="contenedor-datos">
-                    <input class="datos" type="text" placeholder="Nombre o email*" required>
-                </div>
-                <div class="contenedor-datos">
-                    <input class="datos" type="password" placeholder="Contraseña*" required>
-                </div>
+                
+                <input type="text" placeholder="Nombre o email*" required>
+                <input type="password" placeholder="Contraseña*" required>
+                
                 <div class="contenedor-check">
-                    <label><input class="check" type="checkbox">Guardar Contraseña</label>
+                    <input class="check" type="checkbox" id="guardar-contra">
+                    <label for="guardar-contra">Guardar Contraseña</label>
                 </div>
-                <button type="submit" class="btn">INICIAR SESIÓN</button>
-                <div class="texto">
-                    <p><a class="t1" href="#">¿OLVIDASTE TU CONTRASEÑA?</a></p>
+
+                <button type="submit" class="btn" >INICIAR SESIÓN</button>
+
+                <a class="olvidaste" href="#">¿Olvidaste tu contraseña?</a>
+
+                <div class="contenedor-cuenta">
+                    <p>¿Aún no tienes cuenta?</p><a class="registrate" href="registro.html">REGÍSTRATE</a>
                 </div>
-                <div class="texto">
-                    <p>¿AÚN NO TIENES CUENTA? <a class="t2" href="#">REGÍSTRATE</a> </p>
-                </div>
+
             </form>
         </section>
     </main>

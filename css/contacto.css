@@ -78,6 +78,7 @@ hr {
 .contenedor-y-flechas {
     display: flex;
     align-items: center;
+    
     justify-content: center;
 }
 
@@ -94,10 +95,8 @@ hr {
     background-color: white;
     background-image: 
         linear-gradient(to right, 
-            rgba(255, 255, 255, 1) 0%, 
-            rgba(255, 255, 255, 0.5) 15%, 
-            rgba(255, 255, 255, 0.5) 85%, 
-            rgba(255, 255, 255, 1) 100%), 
+            rgba(255, 255, 255, 0.5), 
+            rgba(255, 255, 255, 0.5)),
         url(../img/contac-sesion-regis/llamita-contac.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -242,6 +241,7 @@ textarea {
     margin-bottom: 15px;
     border: 1px solid var(--gris-4);
     box-shadow: 2px 2px 7px var(--gris-3);
+    outline: none;
 }
 
 button {
