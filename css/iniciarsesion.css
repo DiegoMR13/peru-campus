@@ -188,6 +188,10 @@ h1 {
    margin: 10px;
 }
 
+.olvidaste:hover {
+   text-decoration: underline;
+}
+
 .contenedor-cuenta {
    display: flex;
    gap: 5px;
